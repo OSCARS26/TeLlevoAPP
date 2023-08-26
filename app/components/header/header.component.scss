@@ -1,0 +1,30 @@
+ #headerContainer{
+     display: flex;
+     align-items: center;
+     width: 100%;
+
+}
+
+#logoContainer{
+    display: flex;
+    align-items: center;
+
+    img{
+        max-width: 10%;
+        height: auto;
+        padding-left: 8px;
+        display: block;
+   }
+
+   .app-title{
+       font-size: 30px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+}
+
+#enlacesHeader{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
